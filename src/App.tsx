@@ -6,7 +6,7 @@ import Page from './page';
 
 function App() {
   
-  
+  //A store is created with all the reducers combined
   const store = createStore(allReducers)
   
   return (

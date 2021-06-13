@@ -6,7 +6,14 @@ Lots of tutorials on Youtube and the web are created by rookies that end-up teac
 I hope this helps other people getting to use Redux and learn it the easy way without being thrown up with pure junk spargetti code.
 It took me some time to learn it the right way, and here is the result.
 
+## Structure
 
+The entry point is index.tsx.
+        index.tsx wraps App.tsx
+        App.tsx wraps page.tsx
+
+        From here redux is used. 
+        App.tsx is using the redux provider for the store.
 ## Available Scripts
 
 In the project directory, you can run:
