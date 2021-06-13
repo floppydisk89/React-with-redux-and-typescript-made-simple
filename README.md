@@ -8,10 +8,10 @@ It took me some time to learn it the right way, and here is the result.
 
 ## Structure
 
-The entry point is index.tsx.
--> index.tsx wraps App.tsx
--> App.tsx wraps page.tsx
--> From here redux is used. 
+The entry point is index.tsx.\n
+-> index.tsx wraps App.tsx\n
+-> App.tsx wraps page.tsx\n
+-> From here redux is used.\n 
 -> App.tsx is using the redux provider for the store.
 
 ## Available Scripts
