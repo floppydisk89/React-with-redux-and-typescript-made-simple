@@ -9,11 +9,11 @@ It took me some time to learn it the right way, and here is the result.
 ## Structure
 
 The entry point is index.tsx.
-        index.tsx wraps App.tsx
-        App.tsx wraps page.tsx
+### index.tsx wraps App.tsx
+### App.tsx wraps page.tsx
+### From here redux is used. 
+### App.tsx is using the redux provider for the store.
 
-        From here redux is used. 
-        App.tsx is using the redux provider for the store.
 ## Available Scripts
 
 In the project directory, you can run:
